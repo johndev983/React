@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# https://app.netlify.com/
+# https://neon-pie-7c5b4d.netlify.app/
