@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from "@testing-library/react"
-import { AddCategory } from "../../src/components/addCategory";
+import { AddCategory } from "../../src/components/AddCategory";
 
 describe('Pruebas en <addCategory />', () => {
   test('Debe de cambiar el valor de la caja de texto', () => {
