@@ -1,7 +1,7 @@
 import { useCounter, useFetch } from '../hooks';
-import { LoadingQuote, Quote } from './';
+import { LoadingQuote, Quote } from '../03-examples/';
 
-export const MultipleCutomHooks = () => {
+export const Layout = () => {
   const { counter, increment } = useCounter(0);
   const { data, isLoading, hasError } = useFetch('https://api.giphy.com/v1/gifs/search?api_key=BbN4ATx2qrZzyxCcU60PEh12VNtcQqoe&q=Vegeta&limit=10');
   const { title, import_datetime } = !!data && data[counter];
