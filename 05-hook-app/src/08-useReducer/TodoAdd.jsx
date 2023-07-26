@@ -7,7 +7,7 @@ export const TodoAdd = ({ onNewTodo }) => {
 
   const onFormSubmit = (e) => {
     e.preventDefault();
-    if ( description.lenght <= 1 ) return;
+    if ( description.length <= 1 ) return;
     
     const NewTodo = {
       id: new Date().getTime(),
@@ -16,6 +16,7 @@ export const TodoAdd = ({ onNewTodo }) => {
     }
 
     onNewTodo(NewTodo);
+    onResetForm();
   }
 
   return (
