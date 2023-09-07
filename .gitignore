@@ -7,11 +7,14 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-/05-hook-app/node_modules
-/05-hook-app/dist
+/03-counter-app-vite/node_modules
+/03-counter-app-vite/dist
 
 /04-gif-expert-app/node_modules
 /04-gif-expert-app/dist
+
+/05-hook-app/node_modules
+/05-hook-app/dist
 
 dist-ssr
 *.local
