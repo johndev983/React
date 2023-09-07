@@ -17,6 +17,7 @@ export const MultipleCutomHooks = () => {
           : <Quote title={ title } quote={ import_datetime } />
       }
 
+      <hr />
       <button
         className="btn btn-primary"
         disabled={ isLoading }
